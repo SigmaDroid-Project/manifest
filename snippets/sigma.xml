@@ -32,13 +32,13 @@
 
   <project path="packages/apps/AlphaSettings" name="packages_apps_AlphaSettings" remote="sigma" />
   <!-- <project path="packages/apps/AlphaWallpapers" name="packages_apps_AlphaWallpapers" remote="alpha" /> -->
-  <!-- <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="alpha" /> -->
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="sigma" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="sigma" />
-  <!-- <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="alpha" /> -->
+  <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="sigma" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="sigma" />
-  <!-- <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="alpha" /> -->
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="sigma" />
   <!-- <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="alpha" /> -->
-  <!-- <project path="packages/apps/Updater" name="packages_apps_Updater" remote="alpha" /> -->
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="sigma" />
 
   <project path="vendor/lineage" name="vendor_lineage" remote="sigma" />
   
