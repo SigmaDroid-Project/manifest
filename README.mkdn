@@ -1,6 +1,6 @@
-<p><b>Red-ROM</b></p>
+<p><b>SigmaDroid</b></p>
 
-<p>Red-ROM is a custom ROM for Android, based on AlphaDroid/crDroid, with some extra features and optimizations, plus the additional of pixel-framework from PE to enable all the Pixel device-specific goodies for all! Memory optimizations and performance tweaks come mostly from RisingTechOSS and ProtonAOSP. Other extra features are picked from other custom ROMs and adapted to our needs or implemented by us.</p>
+<p>SigmaDroid is a custom ROM for Android, based on AlphaDroid/crDroid, with some extra features and optimizations, plus the additional of pixel-framework from PE to enable all the Pixel device-specific goodies for all! Memory optimizations and performance tweaks come mostly from RisingTechOSS and ProtonAOSP. Other extra features are picked from other custom ROMs and adapted to our needs or implemented by us.</p>
 
 <p>Credits:</p>
 
@@ -31,7 +31,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/Red-ROM/manifest -b red-13 --git-lfs
+repo init -u https://github.com/SigmaDroid-Project/manifest -b sigma-13 --git-lfs
 
 # Sync
 repo sync
@@ -45,7 +45,7 @@ repo sync
 $ . build/envsetup.sh
 
 # Build the code
-$ lunch lineage_[device_name]-[build_variant]
+$ lunch sigma_[device_name]-[build_variant]
 $ make bacon
 ```
 
