@@ -12,8 +12,8 @@
           revision="alpha-13" />
 
   <project path="art" name="art" remote="alpha" />
-  <project path="bionic" name="bionic" remote="alpha" />
-  <project path="build/make" name="build_make" remote="alpha">
+  <!-- <project path="bionic" name="bionic" remote="alpha" /> -->
+  <!-- <project path="build/make" name="build_make" remote="alpha">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -21,13 +21,13 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
-  </project>
+  </project> -->
   <project path="build/soong" name="build_soong" remote="alpha" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="alpha" />
+  <!-- <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="alpha" /> -->
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="alpha" />
 
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="alpha" />
@@ -37,27 +37,27 @@
   <project path="external/zlib" name="external_zlib" remote="alpha" />
 
   <project path="frameworks/av" name="frameworks_av" remote="alpha" />
-  <project path="frameworks/base" name="frameworks_base" remote="alpha" />
+  <!-- <project path="frameworks/base" name="frameworks_base" remote="alpha" /> -->
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="alpha" />
   <project path="frameworks/native" name="frameworks_native" remote="alpha" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="alpha" />
 
-  <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="alpha" />
+  <!-- <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="alpha" /> -->
   <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom-caf_sdm845_display" remote="alpha" />
   <project path="hardware/xiaomi" name="lineageos/android_hardware_xiaomi" remote="github" revision="lineage-20" />
 
   <project path="libcore" name="libcore" remote="alpha" />
-  <project path="lineage-sdk" name="lineage-sdk" remote="alpha" />
+  <!-- <project path="lineage-sdk" name="lineage-sdk" remote="alpha" /> -->
 
-  <project path="packages/apps/AlphaSettings" name="packages_apps_AlphaSettings" remote="alpha" />
+  <!-- <project path="packages/apps/AlphaSettings" name="packages_apps_AlphaSettings" remote="alpha" /> -->
   <project path="packages/apps/AlphaWallpapers" name="packages_apps_AlphaWallpapers" remote="alpha" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="alpha" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="alpha" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="alpha" />
-  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="alpha" />
+  <!-- <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="alpha" /> -->
   <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="alpha" />
   <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="alpha" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="alpha" />
+  <!-- <project path="packages/apps/Settings" name="packages_apps_Settings" remote="alpha" /> -->
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="alpha" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="alpha" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="alpha" />
@@ -75,7 +75,7 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="alpha" />
 
   <project path="vendor/addons" name="vendor_addons" remote="alpha" />
-  <project path="vendor/lineage" name="vendor_lineage" remote="alpha" />
+  <!-- <project path="vendor/lineage" name="vendor_lineage" remote="alpha" /> -->
   <project path="vendor/gms" name="elpaablo/vendor_gapps" remote="gitlab" clone-depth="1" />
   <project path="vendor/google/interfaces" name="vendor_google_interfaces" remote="alpha" />
   <project path="vendor/OTA" name="alphadroid-devices/OTA" remote="github" revision="alpha-13" />
