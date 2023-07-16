@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="red"
-          fetch="https://github.com/Red-ROM"
-          revision="red-13" />
+  <remote name="sigma"
+          fetch="https://github.com/SigmaDroid-Project"
+          revision="sigma-13" />
 
-  <remote name="redrom-gitlab"
-          fetch="https://gitlab.com/Red-ROM"
+  <remote name="sigma-gitlab"
+          fetch="https://gitlab.com/SigmaDroid-Project"
           sync-c="true"
           sync-j="4"
-          revision="red-13" />
+          revision="sigma-13" />
 
-  <project path="bionic" name="bionic" remote="red" />
-  <project path="build/make" name="build_make" remote="red">
+  <project path="bionic" name="bionic" remote="sigma" />
+  <project path="build/make" name="build_make" remote="sigma">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -22,25 +22,25 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="red" />
+  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="sigma" />
 
-  <project path="frameworks/base" name="frameworks_base" remote="red" />
+  <project path="frameworks/base" name="frameworks_base" remote="sigma" />
 
-  <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="red" />
+  <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="sigma" />
 
-  <project path="lineage-sdk" name="lineage-sdk" remote="red" />
+  <project path="lineage-sdk" name="lineage-sdk" remote="sigma" />
 
-  <project path="packages/apps/AlphaSettings" name="packages_apps_AlphaSettings" remote="red" />
+  <project path="packages/apps/AlphaSettings" name="packages_apps_AlphaSettings" remote="sigma" />
   <!-- <project path="packages/apps/AlphaWallpapers" name="packages_apps_AlphaWallpapers" remote="alpha" /> -->
   <!-- <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="alpha" /> -->
-  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="red" />
+  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="sigma" />
   <!-- <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="alpha" /> -->
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="red" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="sigma" />
   <!-- <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="alpha" /> -->
   <!-- <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="alpha" /> -->
   <!-- <project path="packages/apps/Updater" name="packages_apps_Updater" remote="alpha" /> -->
 
-  <project path="vendor/lineage" name="vendor_lineage" remote="red" />
+  <project path="vendor/lineage" name="vendor_lineage" remote="sigma" />
   
   <!-- <project path="vendor/OTA" name="alphadroid-devices/OTA" remote="github" revision="alpha-13" /> -->
 
