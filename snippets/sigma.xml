@@ -21,6 +21,10 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+    <project path="build/soong" name="build_soong" remote="sigma" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
 
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="sigma" />
 
