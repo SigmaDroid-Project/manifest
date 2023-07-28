@@ -38,4 +38,7 @@
   <project path="kernel/google/gs201/private/google-modules/wlan/wcn6740/wlan" name="kernel/google-modules/wlan/qcom/wcn6740/wlan" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.106" />
   <project path="kernel/google/gs201/private/google-modules/wlan/wlan_ptracker" name="kernel/google-modules/wlan/wlan_ptracker" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.106" />
 
+  <!-- Kernel -->
+  <project path="kernel/google/gs201/private/gs-google" name="LineageOS/android_kernel_google_gs201" remote="github" revision="lineage-20" />
+
 </manifest>
