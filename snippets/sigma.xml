@@ -51,7 +51,7 @@
 
   <project path="vendor/gms" name="Albinoman887/vendor_gapps" remote="gitlab" clone-depth="1" />
 
-  <project path="vendor/google/GoogleCameraPrebuilt" name="Albinoman887/vendor_google_GoogleCameraPrebuilt" remote="gitlab" clone-depth="1" />
+  <project path="vendor/google/GoogleCameraPrebuilt" name="Albinoman887/vendor_google_GoogleCameraPrebuilt" remote="gitlab" clone-depth="1" revision="sigma-13" />
 
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="sigma" />
 
