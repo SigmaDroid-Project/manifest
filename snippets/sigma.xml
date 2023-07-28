@@ -46,6 +46,7 @@
   <!-- <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="alpha" /> -->
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="sigma" />
 
+  <project path="vendor/addons" name="vendor_addons" remote="sigma" />
   <project path="vendor/lineage" name="vendor_lineage" remote="sigma" />
 
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="sigma" />
