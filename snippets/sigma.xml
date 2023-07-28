@@ -30,6 +30,8 @@
 
   <project path="frameworks/base" name="frameworks_base" remote="sigma" />
 
+  <project path="frameworks/native" name="frameworks_native" remote="sigma" />
+
   <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="sigma" />
 
   <project path="lineage-sdk" name="lineage-sdk" remote="sigma" />
@@ -45,7 +47,7 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="sigma" />
 
   <project path="vendor/lineage" name="vendor_lineage" remote="sigma" />
-  
+
   <!-- <project path="vendor/OTA" name="alphadroid-devices/OTA" remote="github" revision="alpha-13" /> -->
 
 </manifest>
