@@ -48,6 +48,8 @@
 
   <project path="vendor/lineage" name="vendor_lineage" remote="sigma" />
 
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="sigma" />
+
   <!-- <project path="vendor/OTA" name="alphadroid-devices/OTA" remote="github" revision="alpha-13" /> -->
 
 </manifest>
