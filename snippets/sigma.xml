@@ -51,6 +51,8 @@
 
   <project path="vendor/gms" name="Albinoman887/vendor_gapps" remote="gitlab" clone-depth="1" />
 
+  <project path="vendor/google/GoogleCameraPrebuilt" name="Albinoman887/vendor_google_GoogleCameraPrebuilt" remote="gitlab" clone-depth="1" />
+
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="sigma" />
 
   <!-- <project path="vendor/OTA" name="alphadroid-devices/OTA" remote="github" revision="alpha-13" /> -->
