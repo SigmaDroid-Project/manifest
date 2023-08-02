@@ -36,7 +36,7 @@
 
   <project path="lineage-sdk" name="lineage-sdk" remote="sigma" />
 
-  <project path="packages/apps/AlphaSettings" name="packages_apps_AlphaSettings" remote="sigma" />
+  <project path="packages/apps/SigmaSettings" name="packages_apps_SigmaSettings" remote="sigma" />
   <project path="packages/apps/SigmaWallpapers" name="packages_apps_SigmaWallpapers" remote="sigma" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="sigma" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="sigma" />
