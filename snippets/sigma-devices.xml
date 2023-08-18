@@ -17,4 +17,5 @@
     <project path="device/google/pantah" name="device_google_pantah" remote="sigma" />
 
     <project path="vendor/google/cheetah" name="proprietary_vendor_google_cheetah" remote="sigma-gitlab" />
+    <project path="vendor/google/panther" name="proprietary_vendor_google_panther" remote="sigma-gitlab" />
 </manifest>
