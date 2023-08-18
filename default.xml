@@ -1154,4 +1154,5 @@
   <include name="snippets/pixel.xml" />
   <include name="snippets/pixel-caf.xml" />
   <include name="snippets/sigma.xml" />
+  <include name="snippets/sigma-devices.xml" />
 </manifest>

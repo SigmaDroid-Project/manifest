@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="sigma"
+          fetch="https://github.com/SigmaDroid-Project"
+          revision="sigma-13" />
+
+  <remote name="sigma-gitlab"
+          fetch="https://gitlab.com/sigmadroid-project"
+          sync-c="true"
+          sync-j="4"
+          revision="sigma-13" />
+
+  <!-- Device specific trees -->
+    <project path="device/google/gs101" name="LineageOS/android_device_google_gs101" remote="github" revision="lineage-20" />
+    <project path="device/google/gs201" name="device_google_gs201" remote="sigma" />
+    <project path="device/google/pantah" name="device_google_pantah" remote="sigma" />
+
+    <project path="vendor/google/cheetah" name="proprietary_vendor_google_cheetah" remote="sigma-gitlab" />
+</manifest>
