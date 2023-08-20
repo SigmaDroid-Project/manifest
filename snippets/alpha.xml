@@ -32,7 +32,7 @@
 
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="alpha" />
   <!-- <project path="external/elfutils" name="external_elfutils" remote="alpha" /> -->
-  <!-- <project path="external/vixl" name="external_vixl" remote="alpha" /> -->
+  <project path="external/vixl" name="external_vixl" remote="alpha" />
   <!-- <project path="external/vulkan-headers" name="external_vulkan-headers" remote="alpha" /> -->
   <!-- <project path="external/zlib" name="external_zlib" remote="alpha" /> -->
 
