@@ -11,7 +11,7 @@
           sync-j="4"
           revision="alpha-13" />
 
-  <!-- <project path="art" name="art" remote="alpha" /> -->
+  <project path="art" name="art" remote="alpha" />
   <!-- <project path="bionic" name="bionic" remote="alpha" /> -->
   <!-- <project path="build/make" name="build_make" remote="alpha">
     <copyfile src="core/root.mk" dest="Makefile" />
