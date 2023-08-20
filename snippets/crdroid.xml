@@ -2,12 +2,15 @@
 <manifest>
 
   <!-- crDroid additions -->
-  <!--project path="android" name="crdroidandroid/android" remote="crdroid" />
+  <!--project path="android" name="crdroidandroid/android" remote="crdroid" / -->
 
   <project path="art" name="crdroidandroid/android_art" groups="pdk" remote="crdroid" />
 
-  <project path="bionic" name="crdroidandroid/android_bionic" groups="pdk" remote="crdroid" /-->
-
+  <project path="bionic" name="crdroidandroid/android_bionic" groups="pdk" remote="crdroid" />
+  <!-- <project path="build/soong" name="crdroidandroid/android_build_soong" remote="crdroid" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project> -->
   <project path="bootable/recovery" name="crdroidandroid/android_bootable_recovery" groups="pdk" remote="crdroid" />
 
    <project path="external/faceunlock" name="crdroidandroid/android_external_faceunlock" remote="crdroid-gitlab" />
@@ -31,9 +34,10 @@
   <project path="hardware/qcom-caf/sm8350/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom,lahaina" revision="13.0-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/media" name="crdroidandroid/android_hardware_qcom_media" groups="qcom,lahaina" revision="13.0-caf-sm8350" />-->
 
+  <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" remote="crdroid" />
   <project path="frameworks/opt/net/ims" name="crdroidandroid/android_frameworks_opt_net_ims" groups="pdk" remote="crdroid" />
 
-  <!--project path="libcore" name="crdroidandroid/android_libcore" groups="pdk" remote="crdroid" /-->
+  <project path="libcore" name="crdroidandroid/android_libcore" groups="pdk" remote="crdroid" />
 
   <project path="packages/apps/CellBroadcastReceiver" name="crdroidandroid/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/apps/Contacts" name="crdroidandroid/android_packages_apps_Contacts" groups="pdk-fs" remote="crdroid" />
@@ -45,22 +49,23 @@
   <project path="packages/apps/Matlog" name="crdroidandroid/android_packages_apps_Matlog" remote="crdroid" />
   <project path="packages/apps/Messaging" name="crdroidandroid/android_packages_apps_Messaging" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/Nfc" name="crdroidandroid/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="crdroid" />
-  <!--project path="packages/apps/ParallelSpace" name="crdroidandroid/android_packages_apps_ParallelSpace" remote="crdroid" /-->
+  <project path="packages/apps/ParallelSpace" name="crdroidandroid/android_packages_apps_ParallelSpace" remote="crdroid" />
   <project path="packages/apps/SimpleDeviceConfig" name="crdroidandroid/android_packages_apps_SimpleDeviceConfig" remote="crdroid" />
   <project path="packages/inputmethods/LatinIME" name="crdroidandroid/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="crdroid" />
-  <!--project path="packages/modules/Connectivity" name="crdroidandroid/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="crdroid" /-->
-  <!--project path="packages/modules/Permission" name="crdroidandroid/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="crdroid" /-->
+  <project path="packages/modules/Bluetooth" name="crdroidandroid/android_packages_modules_Bluetooth" remote="crdroid" />
+  <project path="packages/modules/Connectivity" name="crdroidandroid/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
+  <project path="packages/modules/Permission" name="crdroidandroid/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/modules/Wifi" name="crdroidandroid/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
-  <!--project path="packages/services/Telecomm" name="crdroidandroid/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="crdroid" /-->
+  <project path="packages/services/Telecomm" name="crdroidandroid/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
 
   <project path="prebuilts/build-tools" name="crdroidandroid/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="crdroid" />
   <!-- Clang 16 version 17.0.2 -->
   <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r487747c" remote="crdroid-gitlab" />
 
-  <!--project path="system/core" name="crdroidandroid/android_system_core" groups="pdk" remote="crdroid" /-->
-  <!--project path="system/memory/lmkd" name="crdroidandroid/android_system_memory_lmkd" groups="pdk" remote="crdroid" /-->
+  <project path="system/core" name="crdroidandroid/android_system_core" groups="pdk" remote="crdroid" />
+  <project path="system/memory/lmkd" name="crdroidandroid/android_system_memory_lmkd" groups="pdk" remote="crdroid" />
   <project path="system/netd" name="crdroidandroid/android_system_netd" groups="pdk" remote="crdroid" />
-  <!--project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" groups="pdk" remote="crdroid" /-->
+  <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" groups="pdk" remote="crdroid" />
   <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" groups="pdk" remote="crdroid" />
 
   <!--project path="vendor/nxp/nfc" name="crdroidandroid/android_vendor_nxp_nfc" remote="crdroid" />
