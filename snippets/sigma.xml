@@ -34,7 +34,7 @@
 
   <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="sigma" />
 
-  <!-- <project path="lineage-sdk" name="lineage-sdk" remote="sigma" /> -->
+  <project path="lineage-sdk" name="lineage-sdk" remote="sigma" revision="13.0" />
 
   <project path="packages/apps/SigmaSettings" name="packages_apps_SigmaSettings" remote="sigma" />
   <project path="packages/apps/SigmaWallpapers" name="packages_apps_SigmaWallpapers" remote="sigma" />
