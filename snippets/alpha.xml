@@ -30,7 +30,7 @@
   <!-- <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="alpha" /> -->
   <!-- <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="alpha" /> -->
 
-  <!-- <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="alpha" /> -->
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="alpha" />
   <!-- <project path="external/elfutils" name="external_elfutils" remote="alpha" /> -->
   <!-- <project path="external/vixl" name="external_vixl" remote="alpha" /> -->
   <!-- <project path="external/vulkan-headers" name="external_vulkan-headers" remote="alpha" /> -->
