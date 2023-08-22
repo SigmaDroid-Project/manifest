@@ -71,7 +71,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project> -->
   <project path="libcore" name="libcore" remote="evo" />
-  <project path="manifest" name="manifest" revision="tiramisu-pixel" remote="evo" />
+  <!-- <project path="manifest" name="manifest" revision="tiramisu-pixel" remote="evo" /> -->
 
   <!-- Hardware repos -->
   <project path="hardware/evolution/interfaces" name="hardware_evolution_interfaces" remote="evo" />
