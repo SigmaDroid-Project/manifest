@@ -1,5 +1,5 @@
 ![SigmaDroid](https://github.com/SigmaDroid-Project/manifest/raw/tiramisu/sigma_logo.png)
-
+===========
 [![Download SigmaDroid](https://img.shields.io/sourceforge/dt/sigmadroid.svg)](https://sourceforge.net/projects/sigmadroid/files/latest/download)
 
 ### Syncing SigmaDroid Source Code ###
