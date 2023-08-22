@@ -65,7 +65,7 @@
   <project path="vendor/google/faceunlock" name="vendor_google_faceunlock" remote="sigma" />
 
   <!-- Vendor (Common) repos -->
-  <project path="vendor/google/GoogleCameraPrebuilt" name="vendor_google_GoogleCameraPrebuilt" remote="sigma-gitlab" />
+  <!-- <project path="vendor/google/GoogleCameraPrebuilt" name="vendor_google_GoogleCameraPrebuilt" remote="sigma-gitlab" /> -->
   <project path="vendor/sigma" name="vendor_sigma" remote="sigma" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="sigma" />
 </manifest>
