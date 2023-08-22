@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- GitHub -->
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <!-- GitLab -->
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+
+  <!-- GitHub (SigmaDroid) -->
+  <remote  name="sigma"
+           fetch="https://github.com/SigmaDroid-Project"
+           revision="refs/heads/tiramisu" />
+
+  <!-- GitLab (SigmaDroid) -->
+  <remote  name="sigma-gitlab"
+           fetch="https://gitlab.com/sigmadroid-project"
+           revision="refs/heads/tiramisu" />
+
+  <!-- GitLab (PE) -->
+  <remote  name="pe-gitlab"
+           fetch="https://gitlab.pixelexperience.org/android"
+           revision="thirteen" />
+
+  <!-- Device repos -->
+  <project path="device/sigma/sepolicy" name="device_sigma_sepolicy" remote="sigma" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/base" name="frameworks_base" revision="tiramisu" remote="sigma" />
+
+  <!-- General repos -->
+  <project path="build/make" name="build" revision="tiramisu" remote="sigma" groups="pdk">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="sigma" groups="pdk,tradefed">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="manifest" name="manifest" revision="tiramisu" remote="sigma" />
+
+  <!-- Packages (Apps) repos -->
+  <project path="packages/apps/SigmaToolbox" name="packages_apps_SigmaToolbox" remote="sigma" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="sigma" />
+  <!-- <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="sigma" /> -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="sigma" />
+
+  <!-- Vendor repos -->
+  <project path="vendor/sigma" name="vendor_sigma" revision="tiramisu" remote="sigma" />
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="sigma" />
+</manifest>

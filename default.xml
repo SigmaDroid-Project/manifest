@@ -1206,4 +1206,6 @@
   <!-- LineageOS -->
   <include name="lineage.xml" />
   <include name="pixel.xml" />
+  <!-- SigmaDroid -->
+  <include name="sigma.xml" />
 </manifest>
