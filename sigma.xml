@@ -60,8 +60,8 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="sigma" />
 
   <!-- Vendor (Devices) repos -->
-  <project path="vendor/google/cheetah" name="vendor_google_cheetah" remote="sigma-gitlab" />
-  <project path="vendor/google/panther" name="vendor_google_panther" remote="sigma-gitlab" />
+  <project path="vendor/google/cheetah" name="proprietary_vendor_google_cheetah" remote="sigma-gitlab" />
+  <project path="vendor/google/panther" name="proprietary_vendor_google_panther" remote="sigma-gitlab" />
   <project path="vendor/google/faceunlock" name="vendor_google_faceunlock" remote="sigma" />
 
   <!-- Vendor (Common) repos -->
