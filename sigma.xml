@@ -25,7 +25,9 @@
            revision="thirteen" />
 
   <!-- Device repos -->
-  <project path="device/sigma/sepolicy" name="device_sigma_sepolicy" remote="sigma" />
+  <project path="device/google/gs101" name="device_google_gs101" remote="sigma" />
+  <project path="device/google/gs201" name="device_google_gs201" remote="sigma" />
+  <project path="device/google/pantah" name="device_google_pantah" remote="sigma" />
 
   <!-- Framework repos -->
   <project path="frameworks/base" name="frameworks_base" revision="tiramisu" remote="sigma" />
@@ -44,15 +46,26 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="device/sigma/sepolicy" name="device_sigma_sepolicy" remote="sigma" />
   <project path="manifest" name="manifest" revision="tiramisu" remote="sigma" />
+
+  <!-- Kernel repos -->
+  <project path="kernel/google/gs201/private/gs-google" name="kernel_google_gs201" remote="sigma" />
 
   <!-- Packages (Apps) repos -->
   <project path="packages/apps/SigmaToolbox" name="packages_apps_SigmaToolbox" remote="sigma" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="sigma" />
   <!-- <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="sigma" /> -->
+  <project path="packages/apps/PixelParts" name="packages_apps_PixelParts" remote="sigma" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="sigma" />
 
-  <!-- Vendor repos -->
-  <project path="vendor/sigma" name="vendor_sigma" revision="tiramisu" remote="sigma" />
+  <!-- Vendor (Devices) repos -->
+  <project path="vendor/google/cheetah" name="vendor_google_cheetah" remote="sigma-gitlab" />
+  <project path="vendor/google/panther" name="vendor_google_panther" remote="sigma-gitlab" />
+  <project path="vendor/google/faceunlock" name="vendor_google_faceunlock" remote="sigma" />
+
+  <!-- Vendor (Common) repos -->
+  <project path="vendor/google/GoogleCameraPrebuilt" name="vendor_google_GoogleCameraPrebuilt" remote="sigma-gitlab" />
+  <project path="vendor/sigma" name="vendor_sigma" remote="sigma" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="sigma" />
 </manifest>
