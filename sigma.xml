@@ -58,6 +58,7 @@
   <!-- <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="sigma" /> -->
   <project path="packages/apps/PixelParts" name="packages_apps_PixelParts" remote="sigma" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="sigma" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="sigma" />
 
   <!-- Vendor (Devices) repos -->
   <project path="vendor/google/cheetah" name="proprietary_vendor_google_cheetah" remote="sigma-gitlab" />
