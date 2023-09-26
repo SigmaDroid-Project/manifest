@@ -14,8 +14,8 @@
   <!-- Device specific trees -->
     <project path="device/google/gs101" name="LineageOS/android_device_google_gs101" remote="github" revision="lineage-20" />
     <project path="device/google/gs201" name="device_google_gs201" remote="sigma" revision="sigma-next-sep" />
-    <project path="device/google/pantah" name="device_google_pantah" remote="sigma" />
+    <project path="device/google/pantah" name="device_google_pantah" remote="sigma" revision="sigma-next-sep" />
 
-    <project path="vendor/google/cheetah" name="proprietary_vendor_google_cheetah" remote="sigma-gitlab" />
+    <project path="vendor/google/cheetah" name="proprietary_vendor_google_cheetah" remote="sigma-gitlab" revision="sigma-next-sep" />
     <project path="vendor/google/panther" name="proprietary_vendor_google_panther" remote="sigma-gitlab" />
 </manifest>
