@@ -48,13 +48,9 @@
 
   <project path="vendor/addons" name="vendor_addons" remote="sigma" />
   <project path="vendor/lineage" name="vendor_lineage" remote="sigma" revision="sigma-next-sep" />
-
   <project path="vendor/gms" name="vendor_gms" remote="sigma-gitlab" clone-depth="1" revision="sigma-next-sep" />
-
-  <!-- <project path="vendor/google/GoogleCameraPrebuilt" name="Albinoman887/vendor_google_GoogleCameraPrebuilt" remote="gitlab" clone-depth="1" revision="sigma-13" /> -->
-
+  <project path="vendor/google/faceunlock" name="vendor_google_faceunlock" remote="sigma" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="sigma" revision="sigma-next-sep" />
-
   <project path="vendor/OTA" name="sigmadroid-devices/OTA" remote="github" revision="sigma-13" />
 
 </manifest>

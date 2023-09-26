@@ -9,5 +9,5 @@
     <project path="packages/apps/PixelParts" name="packages_apps_pixelparts" remote="evo-devices" />
 
   <!-- vendor repos -->
-    <project path="vendor/google/faceunlock" name="vendor_google_faceunlock" remote="evo-devices" />
+    <!-- <project path="vendor/google/faceunlock" name="vendor_google_faceunlock" remote="evo-devices" /> -->
 </manifest>
