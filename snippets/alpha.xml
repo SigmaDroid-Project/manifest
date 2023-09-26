@@ -21,7 +21,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project> -->
 
-  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="alpha" />
+  <!-- <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="alpha" /> -->
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="alpha" />
 
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="alpha" />
