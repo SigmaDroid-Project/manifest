@@ -11,7 +11,7 @@
           sync-j="4"
           revision="sigma-13" />
 
-  <project path="bionic" name="bionic" groups="pdk" remote="sigma" />
+  <project path="bionic" name="bionic" groups="pdk" remote="sigma" revision="sigma-next-sep" />
   <project path="build/make" name="build_make" groups="pdk" remote="sigma" revision="sigma-next-sep" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
