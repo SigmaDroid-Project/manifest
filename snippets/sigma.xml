@@ -32,7 +32,7 @@
 
   <!-- <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="sigma" /> -->
 
-  <!-- <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="sigma" /> -->
+  <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="sigma" revision="sigma-next-sep" />
 
   <project path="lineage-sdk" name="lineage-sdk" remote="sigma" revision="sigma-next-sep" />
 
