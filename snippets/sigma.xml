@@ -40,6 +40,7 @@
   <project path="packages/apps/SigmaWallpapers" name="packages_apps_SigmaWallpapers" groups="pdk-fs" remote="sigma" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="sigma" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="sigma" />
+  <project path="packages/apps/PixelParts" name="packages_apps_pixelparts" remote="sigma" revision="sigma-13-final" />
   <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="sigma" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="sigma" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" groups="pdk-fs" remote="sigma" />
