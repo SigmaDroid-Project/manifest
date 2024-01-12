@@ -1,6 +1,6 @@
-<p><b>AlphaDroid</b></p>
+<p><b>SigmaDroid</b></p>
 
-<p>AlphaDroid is a custom ROM for Android, based on crDroid, with a new look and some extra features and optimizations. Memory optimizations and performance tweaks come mostly from RisingTechOSS and ProtonAOSP. Other extra features are picked from other custom ROMs and adapted to our needs or implemented by us.</p>
+<p>SigmaDroid is a custom ROM for Android, based on AlphaDroid/crDroid, with a new look and some extra features and optimizations. Memory optimizations and performance tweaks come mostly from RisingTechOSS and ProtonAOSP. Other extra features are picked from other custom ROMs and adapted to our needs or implemented by us.</p>
 
 <p>Credits:</p>
 
@@ -24,16 +24,14 @@
 ** <a href="https://github.com/pixelexperience">PixelExperience</a><br/>
 ** <a href="https://github.com/DerpFest-AOSP">DerpFest-AOSP</a><br/>
 ** <a href="https://github.com/bananadroid">BananaDroid</a><br/>
-
-<p>* Alpha logo:<br/>
-** <a href="https://github.com/naokoshoto">naokoshoto</a></p>
+** <a href="https://github.com/alphadroid-project">AlphaDroid</a><br/>
 
 ### Sync ###
 
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/alphadroid-project/manifest -b alpha-14 --git-lfs
+repo init -u https://github.com/sigmadroid-project/manifest -b sigma-14 --git-lfs
 
 # Sync
 repo sync
@@ -47,7 +45,7 @@ repo sync
 $ . build/envsetup.sh
 
 # Build the code
-$ lunch lineage_[device_name]-[build_variant]
+$ lunch sigma_[device_name]-[build_variant]
 $ make bacon
 ```
 
