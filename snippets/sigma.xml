@@ -39,7 +39,7 @@
   <project path="packages/apps/SigmaSettings" name="packages_apps_SigmaSettings" remote="sigma" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="sigma" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="sigma" />
-  <!-- <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="sigma" /> -->
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="sigma" />
   <!-- <project path="packages/apps/Updater" name="packages_apps_Updater" remote="sigma" /> -->
 
   <project path="vendor/lineage" name="vendor_lineage" remote="sigma" />
