@@ -6,7 +6,7 @@
            fetch="https://github.com/SigmaDroid-Project"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/sigma-14_r20" />
+           revision="refs/heads/sigma-14" />
 
   <remote  name="sigma-gitlab"
            fetch="https://gitlab.com/SigmaDroid-Project"
