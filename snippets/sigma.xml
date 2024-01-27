@@ -14,6 +14,12 @@
            sync-j="4"
            revision="refs/heads/sigma-14" />
 
+  <remote  name="sigma-devices"
+           fetch="https://github.com/SigmaDroid-Devices"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/sigma-14" />
+
 <!--  <project path="art" name="art" groups="pdk" remote="alpha" />
   <project path="bionic" name="bionic" groups="pdk" remote="alpha" />
   -->
@@ -46,5 +52,5 @@
   <project path="vendor/addons" name="vendor_addons" remote="sigma" />
   <project path="vendor/lineage" name="vendor_lineage" remote="sigma" />
   <project path="vendor/gms" name="vendor_pixelgapps" remote="sigma-gitlab" clone-depth="1" revision="sigma-14-new" />
-  <!-- <project path="vendor/OTA" name="alphadroid-devices/OTA" remote="github" revision="sigma-13" /> -->
+  <project path="vendor/OTA" name="OTA" remote="sigma-devices" />
 </manifest>
