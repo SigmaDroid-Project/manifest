@@ -36,6 +36,7 @@
 
   <project path="lineage-sdk" name="lineage-sdk" remote="sigma" />
 
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="sigma" />
   <project path="packages/apps/SigmaSettings" name="packages_apps_SigmaSettings" remote="sigma" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="sigma" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="sigma" />
