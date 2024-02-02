@@ -1162,4 +1162,5 @@
   <include name="snippets/crdroid.xml" />
   <include name="snippets/alpha.xml" />
   <include name="snippets/sigma.xml" />
+  <include name="snippets/evolution.xml" />
 </manifest>
