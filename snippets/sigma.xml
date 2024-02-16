@@ -24,7 +24,7 @@
   <project path="bionic" name="bionic" groups="pdk" remote="alpha" />
   -->
 
-  <project path="build/make" name="build_make" groups="pdk" remote="sigma">
+  <project path="build/make" name="build_make" groups="pdk" remote="sigma" revision="sigma-14-feb" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -33,26 +33,26 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="sigma" >
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="sigma" revision="sigma-14-feb" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="sigma" />
+  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="sigma" revision="sigma-14-feb" />
 
-  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="sigma" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="sigma" revision="sigma-14-feb" />
 
   <project path="lineage-sdk" name="lineage-sdk" remote="sigma" />
 
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="sigma" />
-  <project path="packages/apps/SigmaSettings" name="packages_apps_SigmaSettings" remote="sigma" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="sigma" revision="sigma-14-feb" />
+  <project path="packages/apps/SigmaSettings" name="packages_apps_SigmaSettings" remote="sigma" revision="sigma-14-feb" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="sigma" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="sigma" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="sigma" revision="sigma-14-feb" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="sigma" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="sigma" />
 
   <project path="vendor/addons" name="vendor_addons" remote="sigma" />
-  <project path="vendor/lineage" name="vendor_lineage" remote="sigma" />
+  <project path="vendor/lineage" name="vendor_lineage" remote="sigma" revision="sigma-14-feb" />
   <project path="vendor/gms" name="vendor_pixelgapps" remote="sigma-gitlab" clone-depth="1" revision="sigma-14-new" />
   <project path="vendor/OTA" name="OTA" remote="sigma-devices" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="sigma" revision="sigma-14-feb" />
