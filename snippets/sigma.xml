@@ -55,4 +55,5 @@
   <project path="vendor/lineage" name="vendor_lineage" remote="sigma" />
   <project path="vendor/gms" name="vendor_pixelgapps" remote="sigma-gitlab" clone-depth="1" revision="sigma-14-new" />
   <project path="vendor/OTA" name="OTA" remote="sigma-devices" />
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="sigma" revision="sigma-14-feb" />
 </manifest>
