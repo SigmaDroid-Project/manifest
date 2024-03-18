@@ -1164,4 +1164,5 @@
   <include name="snippets/alpha.xml" />
   <include name="snippets/sigma.xml" />
   <include name="snippets/evolution.xml" />
+  <include name="snippets/pixel.xml" />
 </manifest>
