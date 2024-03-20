@@ -52,6 +52,7 @@
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="sigma" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="sigma" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="sigma" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="sigma" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="sigma" />
 
   <!-- <project path="system/core" name="system_core" groups="pdk" remote="sigma" /> -->
