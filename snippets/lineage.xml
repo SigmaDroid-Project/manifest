@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="device/google/gs-common" name="LineageOS/android_device_google_gs-common" revision="lineage-21" />
+  <!-- <project path="device/google/gs-common" name="LineageOS/android_device_google_gs-common" revision="lineage-21" /> -->
   <!-- <project path="device/google/gs101" name="LineageOS/android_device_google_gs101" revision="lineage-21" /> -->
   <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />
   <project path="device/lineage/car" name="LineageOS/android_device_lineage_car" />

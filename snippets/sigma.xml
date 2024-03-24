@@ -38,6 +38,8 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="device/google/gs-common" name="android_device_google_gs-common" revision="sigma-14-qpr1" remote="sigma" />
+
   <project path="device/google/gs101" name="device_google_gs101" remote="sigma-devices" />
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="sigma" />
 
