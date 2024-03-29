@@ -8,6 +8,12 @@
            sync-j="4"
            revision="refs/heads/sigma-14" />
 
+  <remote  name="sigma-qpr1"
+           fetch="https://github.com/SigmaDroid-Project"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/sigma-14-qpr1" />
+
   <remote  name="sigma-gitlab"
            fetch="https://gitlab.com/SigmaDroid-Project"
            sync-c="true"
@@ -42,6 +48,12 @@
 
   <project path="device/google/gs101" name="device_google_gs101" remote="sigma-devices" />
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="sigma" />
+
+  <project path="external/bash" name="android_external_bash" remote="sigma" revision="sigma-14-qpr1" />
+  <project path="external/htop" name="android_external_htop" remote="sigma-qpr1" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="sigma-qpr1" />
+  <project path="external/nano" name="android_external_nano" remote="sigma-qpr1" />
+  <project path="external/vim" name="android_external_vim" remote="sigma-qpr1" />
 
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="sigma" />
 
