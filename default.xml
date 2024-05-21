@@ -1308,4 +1308,5 @@
   <include name="snippets/lineage.xml" />
   <include name="snippets/crdroid.xml" />
   <include name="snippets/sigma.xml" />
+  <include name="snippets/pixel.xml" />
 </manifest>
