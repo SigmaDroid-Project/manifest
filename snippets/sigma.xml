@@ -40,7 +40,7 @@
 
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="sigma" />
 
-  <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="sigma" />
+  <project path="lineage-sdk" name="lineage-sdk" remote="sigma" />
 
   <project path="packages/apps/Backgrounds" name="packages_apps_Backgrounds" remote="sigma" />
   <project path="packages/apps/crDroidSettings" name="packages_apps_SigmaSettings" remote="sigma" />
