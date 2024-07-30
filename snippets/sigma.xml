@@ -52,7 +52,7 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="sigma" />
 
   <project path="vendor/addons" name="vendor_addons" remote="sigma" />
-  <project path="vendor/gms" name="vendor_pixelgapps" remote="sigma-gitlab" revision="sigma-14.2" />
+  <project path="vendor/gms" name="vendor_pixelgapps" remote="sigma-gitlab" />
   <project path="vendor/google/faceunlock" name="vendor_google_faceunlock" remote="sigma" />
   <project path="vendor/OTA" name="OTA" remote="sigma-devices" />
   <project path="vendor/lineage" name="vendor_lineage" remote="sigma" />
