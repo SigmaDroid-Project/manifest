@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="evo-xyz"
+           fetch="https://github.com/Evolution-XYZ"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/udc" />
+  
+  <project path="vendor/certification" name="vendor_certification" remote="evo-xyz" />
+  
+</manifest>
