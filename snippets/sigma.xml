@@ -48,7 +48,7 @@
   <project path="packages/apps/crDroidSettings" name="packages_apps_SigmaSettings" remote="sigma" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs,sysui-studio" remote="sigma" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="sigma" />
-  <!-- <project path="packages/apps/PixelParts" name="packages_apps_PixelParts" remote="sigma" /> -->
+  <project path="packages/apps/PixelParts" name="packages_apps_PixelParts" remote="sigma" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="sigma" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="sigma" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="sigma" />
