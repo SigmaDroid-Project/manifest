@@ -56,7 +56,7 @@
   <project path="system/security" name="system_security" groups="pdk" remote="sigma" />
 
   <project path="vendor/addons" name="vendor_addons" remote="sigma" />
-  <project path="vendor/gms" name="vendor_pixelgapps" remote="sigma-gitlab" />
+  <project path="vendor/gms" name="vendor_gms" remote="sigma-gitlab" />
   <project path="vendor/google/faceunlock" name="vendor_google_faceunlock" remote="sigma" />
   <project path="vendor/OTA" name="OTA" remote="sigma-devices" />
   <project path="vendor/lineage" name="vendor_lineage" remote="sigma" />
