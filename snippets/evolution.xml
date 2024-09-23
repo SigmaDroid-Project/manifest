@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="evolution"
+           fetch="https://github.com/Evolution-X"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/udc" />
+
+  <!-- Evolution-X additions -->
+  <project path="packages/apps/SystemUIFlagFlipper" name="packages_apps_SystemUIFlagFlipper" remote="evolution" />
+</manifest>
