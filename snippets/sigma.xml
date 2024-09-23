@@ -61,4 +61,5 @@
   <project path="vendor/OTA" name="OTA" remote="sigma-devices" />
   <project path="vendor/lineage" name="vendor_lineage" remote="sigma" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="sigma" />
+  <project path="vendor/pixel-style" name="vendor_pixel-style" remote="sigma" />
 </manifest>
