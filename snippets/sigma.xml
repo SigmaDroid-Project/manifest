@@ -42,7 +42,7 @@
 
   <project path="lineage-sdk" name="lineage-sdk" remote="sigma" />
 
-  <project path="packages/apps/Backgrounds" name="packages_apps_Backgrounds" remote="sigma" revision="sigma-15" />
+  <project path="packages/apps/Backgrounds" name="packages_apps_Backgrounds" remote="sigma" revision="qpr2" />
   <project path="packages/apps/crDroidSettings" name="packages_apps_SigmaSettings" remote="sigma" revision="qpr2-continued" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="sigma" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="sigma" />
