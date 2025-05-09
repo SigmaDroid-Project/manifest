@@ -7,6 +7,6 @@
            sync-j="4"
            revision="refs/heads/vic" />
 
-  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="evox" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="evo" />
 
 </manifest>
