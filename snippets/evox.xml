@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="evox"
+           fetch="https://github.com/Evolution-X"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/vic" />
+
+  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="evox" />
+
+</manifest>
