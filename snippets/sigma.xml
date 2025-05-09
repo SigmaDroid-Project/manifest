@@ -38,7 +38,7 @@
 
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="sigma" />
 
-  <project path="frameworks/base" name="android_frameworks_base-new" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="sigma" />
+  <project path="frameworks/base" name="android_frameworks_base-new" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="sigma" revision="qpr2-ls-cleanup" />
 
   <project path="lineage-sdk" name="lineage-sdk" remote="sigma" />
 
